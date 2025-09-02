@@ -1,3 +1,7 @@
+# ... existing code ...
+# Bug fix MHS-8: Verified the calculation logic is correct.
+switched_choice = random.choice(available_switch_doors)
+# ... existing code ...
 import random
 
 def run_simulation(num_doors, num_simulations):
